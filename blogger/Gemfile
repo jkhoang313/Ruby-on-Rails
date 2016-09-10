@@ -31,6 +31,16 @@ gem "paperclip"
 
 gem 'sorcery'
 
+gem 'sqlite3'
+
+group :development, :test do
+  gem 'sqlite3'
+end
+
+group :production do
+  gem 'pg'
+end
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
