@@ -36,6 +36,8 @@ gem 'sorcery'
 
 gem 'rails_12factor'
 
+ruby '2.2.4'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
